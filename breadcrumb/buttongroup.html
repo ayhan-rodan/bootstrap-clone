@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .btn-secondary:nth-child(1) {
+            border-top-left-radius: .25rem;
+            border-bottom-left-radius: .25rem;
+        }
+
+        .btn-secondary:nth-child(3) {
+            border-top-right-radius: .25rem;
+            border-bottom-right-radius: .25rem;
+        }
+
+        .btn-group button {
+            color: #fff;
+            background-color: #6c757d;
+            border: 1px solid #6c757d;
+            padding: 10px 15px;
+        }
+
+        .btn-secondary:hover {
+            background-color: #5a6268;
+            border-color: #545b62;
+        }
+
+        .btn-group {
+            display: flex;
+        }
+    </style>
+    <title>button group</title>
+</head>
+
+<body>
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-secondary">Left</button>
+        <button type="button" class="btn btn-secondary">Middle</button>
+        <button type="button" class="btn btn-secondary">Right</button>
+    </div>
+</body>
+
+</html>
